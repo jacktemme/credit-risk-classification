@@ -9,9 +9,14 @@ This repository employs a logistic regression model from the Scikit-learn librar
 
 Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
 
-*Logistic Regression Machine Learning Model:
-    - Model performance on healthy loans
-      -
+* Logistic Regression Machine Learning Model:
+    * Model Performance on Healthy Loans.
+        * Precision 100%, showing that of the loans the model predicted as healthy, all of them were actually healthy
+        * Recall 99%, which means that only 1% of the actual healthy loans wasn't predicted by the model.
+    * Model Performance on High-Risk Loans
+        *  Precision 85%, meaning of the loans that were predicted as high-risk, 15% were actually healthy,
+        *  Recall 91%, which shows that out of all of the high-risk loans, 9% weren't predicted by the model. 
+
 
 ## Summary
 

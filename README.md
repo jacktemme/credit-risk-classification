@@ -7,8 +7,6 @@ This repository employs a logistic regression model from the Scikit-learn librar
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
 * Logistic Regression Machine Learning Model:
     * Model Performance on Healthy Loans.
         * Precision 100%:

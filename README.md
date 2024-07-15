@@ -11,13 +11,18 @@ Using bulleted lists, describe the accuracy scores and the precision and recall 
 
 * Logistic Regression Machine Learning Model:
     * Model Performance on Healthy Loans.
-        * Precision 100%, showing that of the loans the model predicted as healthy, all of them were actually healthy
-        * Recall 99%, which means that only 1% of the actual healthy loans wasn't predicted by the model.
+        * Precision 100%:
+           *  Out of the loans predicted by the model as healthy, all of them were actually healthy
+        * Recall 99%:
+           * This means that only 1% of the actual healthy loans wasn not predicted by the model.
     * Model Performance on High-Risk Loans
-        *  Precision 85%, meaning of the loans that were predicted as high-risk, 15% were actually healthy,
-        *  Recall 91%, which shows that out of all of the high-risk loans, 9% weren't predicted by the model. 
-
-
+        *  Precision 85%:
+           *  Meaning of the loans that were predicted as high-risk, 15% were actually healthy,
+        *  Recall 91%:
+           *  Out of all of the high-risk loans, 9% weren't predicted correctly by the model.
+     *  Overall accuracy 99%:
+        *  Out of all of the predictions, only 1% wasn't correct. However, this metric is slightly skewed as there was more healthy loans, which the model       performed better on than high risk loans.
+        
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
